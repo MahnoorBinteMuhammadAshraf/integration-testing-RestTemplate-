@@ -1,0 +1,18 @@
+spring:
+  main:
+    web-application-type: servlet
+  datasource:
+    url: jdbc:postgresql://localhost:5332/customerdb
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      format_sql: true
+    show-sql: true
+server:
+  port: 8083
+
+
+
